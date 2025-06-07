@@ -63,7 +63,7 @@ It is also common, particularly on older and lower-end hardware, for CPU-based o
 
 ## Decoder Limitations
 
-Since hardware decoding is usually only beneficial for directly feeding an adjacent hardware encoder, HandBrake will automatically disable hardware decoding fall back to software decoding whenever it necessary for the decoded video to make a roundtrip to the CPU and back; essentially, whenever a video filter is enabled, including the crop/scale filter.
+Since hardware decoding is usually only beneficial for directly feeding an adjacent hardware encoder, HandBrake will automatically disable hardware decoding and fall back to software decoding whenever it necessary for the decoded video to make a roundtrip to the CPU and back; essentially, whenever a video filter is enabled, including the crop/scale filter.
 
 ## Advanced options
 
